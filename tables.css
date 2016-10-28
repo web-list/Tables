@@ -1,0 +1,452 @@
+/***
+
+TABLES CSS Framework
+
+.table - main table container
+.table children is table-cell
+
+.col-X has width X percents
+
+.col-half, .col-fourth, .col-third is half, fourth and third of parents
+
+.full is 100% width block
+
+.left, .center and .right set text-align respectively
+
+.top, .middle and .bottom set vertical-align respectively
+
+.pX, .mX - padding Xpx and margin Xpx
+.pvX, .mvX - padding Xpx 0 and margin Xpx 0
+.phX, .mhX - padding 0 Xpx and margin 0 Xpx
+.ptX, .mtX - padding-top Xpx and margin-top Xpx
+.prX, .mrX - padding-right Xpx and margin-right Xpx
+.pbX, .mbX - padding-bottom Xpx and margin-bottom Xpx
+.plX, .mlX - padding-left Xpx and margin-left Xpx
+
+CAUTION! For first and last .table children required set padding-left and padding-right at 0 respectively.
+
+***/
+
+.table {
+    display: table;
+}
+
+.table > * {
+    display: table-cell;
+}
+
+.table > *:first-child {
+    padding-left: 0;
+}
+
+.table > *:last-child {
+    padding-right: 0;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-50, .col-half {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-25, .col-fourth {
+    width: 25%;
+}
+
+.col-33, .col-third {
+    width: 33.333333333%;
+}
+
+.full {
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.pv5 {
+    padding: 5px 0;
+}
+
+.ph5 {
+    padding: 0 5px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pb5 {
+    padding-bottom: 5px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.pv10 {
+    padding: 10px 0;
+}
+
+.ph10 {
+    padding: 0 10px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.pv15 {
+    padding: 15px 0;
+}
+
+.ph15 {
+    padding: 0 15px;
+}
+
+.pt15 {
+    padding-top: 15px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.pb15 {
+    padding-bottom: 15px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pv20 {
+    padding: 20px 0;
+}
+
+.ph20 {
+    padding: 0 20px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.pv30 {
+    padding: 30px 0;
+}
+
+.ph30 {
+    padding: 0 30px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pr30 {
+    padding-right: 30px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.p40 {
+    padding: 40px;
+}
+
+.pv40 {
+    padding: 40px 0;
+}
+
+.ph40 {
+    padding: 0 40px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.pr40 {
+    padding-right: 40px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.pl40 {
+    padding-left: 40px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.mv5 {
+    margin: 5px 0;
+}
+
+.mh5 {
+    margin: 0 5px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.mv10 {
+    margin: 10px 0;
+}
+
+.mh10 {
+    margin: 0 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.m15 {
+    margin: 15px;
+}
+
+.mv15 {
+    margin: 15px 0;
+}
+
+.mh15 {
+    margin: 0 15px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.mv20 {
+    margin: 20px 0;
+}
+
+.mh20 {
+    margin: 0 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.m30 {
+    margin: 30px;
+}
+
+.mv30 {
+    margin: 30px 0;
+}
+
+.mh30 {
+    margin: 0 30px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.m40 {
+    margin: 40px;
+}
+
+.mv40 {
+    margin: 40px 0;
+}
+
+.mh40 {
+    margin: 0 40px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
