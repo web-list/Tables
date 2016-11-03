@@ -11,6 +11,8 @@
 
 `.full` is 100% width block
 
+`.h-full` is 100% height block
+
 `.left`, `.center` and `.right` set text-align respectively
 
 `.top`, `.middle` and `.bottom` set vertical-align respectively
